@@ -1,7 +1,8 @@
 package Recursion.Recursion_3_hard;
 
 /* 
- * CountPathMaze
+ * Count total paths in a Maze to move from (0,0) to (n,m)
+ * Condition: Either we can move towards right or down. But not diagonally.
  * 
  * Time complexity - O(2^(m+n))
  */
@@ -11,13 +12,19 @@ public class CountPathMaze {
             return 1;
         }
  
- 
-        return countPaths(i+1, j, m, n) + countPaths(i, j+1, m, n);
+        // move downwards
+        int downPaths = countPaths(i+1, j, m, n);
+
+        // move right
+        int rightPaths = countPaths(i, j+1, m, n);
+        
+        return  downPaths + rightPaths;
     }
  
  
     public static void main(String args[]) {
         int m = 4, n = 5;
+        // total paths
         System.out.println(countPaths(0, 0, m, n));
     }
  

@@ -1,13 +1,12 @@
-package Recursion.Recursion_3_hard;
+package Backtracking;
 
 /* 
- * Print all the permutations of a string.
+ * Print all Permutations
  * 
- * Time complexity - O(n*n!)    - O(n!)
- * Total permutations = n!
+ * Time complexity - O(n*n!)
  */
 
-public class PrintAllPermutationOfString {
+public class PrintPermutationUsingBacktrack {
     public static void printPermutation(String str, int idx, String perm) {
         if(str.length() == 0) {
             System.out.println(perm);

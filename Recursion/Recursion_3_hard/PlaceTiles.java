@@ -1,7 +1,7 @@
 package Recursion.Recursion_3_hard;
 
 /* 
- * Tiling problem
+ * Place Tiles of size 1xm on the floor of size nxm
  * 
  * Time complexity - 
  */
@@ -9,13 +9,20 @@ package Recursion.Recursion_3_hard;
 public class PlaceTiles {
     public static int placeTiles(int n, int m) {
         if(n < m) {
+            // Tile can be placed only vertically
             return 1;
         } else if(n == m) {
+            // either place all the tile vertically or all horizontally
             return 2;
         }
  
+        // vertically
+        int verPlacements = placeTiles(n-m, m);
  
-        return placeTiles(n-1, m) + placeTiles(n-m, m);
+        // horizontally
+        int horPlacements = placeTiles(n-1, m);
+
+        return horPlacements + verPlacements;
     }
  
  

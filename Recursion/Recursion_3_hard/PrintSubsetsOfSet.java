@@ -3,9 +3,9 @@ package Recursion.Recursion_3_hard;
 import java.util.ArrayList;
 
 /* 
- * Subsets of a set
+ * Print all the Subsets of a set of first n natural numbers
  * 
- * Time complexity - 
+ * Time complexity - O(2^n)
  */
 
 public class PrintSubsetsOfSet {
@@ -26,6 +26,7 @@ public class PrintSubsetsOfSet {
  
         findSubsets(n-1, subset);
         subset.add(n);
+
         findSubsets(n-1, subset);
         subset.remove(subset.size() - 1);
     }
@@ -33,7 +34,11 @@ public class PrintSubsetsOfSet {
  
     public static void main(String args[]) {
         int n = 3;
-        findSubsets(n, new ArrayList<Integer> ());
+        findSubsets(n, new ArrayList<Integer> ());// can be called in this way as well
+
+        // can be called in this way as well
+        /* ArrayList<Integer> subset2 = new ArrayList<>();
+        findSubsets(n, subset2);  */
     }
  
 }
