@@ -1,0 +1,24 @@
+// https://docs.google.com/document/d/1v2iXC49cKhF2WuJFX5C_MjmXDu4FRv89cqi2u1FFk3A/edit
+
+
+ArrayList in Java
+
+
+Operations :
+
+1. Declare an ArrayList of different Types
+2. Add Element
+3. Get Element
+4. Add Element at a specific Index
+5. Set Element at a specific Index
+6. Delete Element from an Index
+7. Size of the List
+8. Loop/Iterate on the List
+9. Sort the List
+
+
+
+
+
+Homework Problems
+Try solving all problems of arrays with arraylists.
