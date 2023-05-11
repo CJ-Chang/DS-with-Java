@@ -8,7 +8,7 @@ Space complexity - O(1)
  */
 public class ReverseLLWithOutExtraSpaceIterativeMethod {
     
-    public void reverseList() {
+    public void reverseListIterate() {
         if(head == null || head.next == null) {
             return;
         }
@@ -19,6 +19,8 @@ public class ReverseLLWithOutExtraSpaceIterativeMethod {
         while(currNode != null) {
             Node nextNode = currNode.next;
             currNode.next = prevNode;
+
+            // update
             prevNode = currNode;
             currNode = nextNode;
         }

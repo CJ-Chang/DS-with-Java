@@ -1,5 +1,7 @@
 package LinkedList;
 
+import java.util.*;
+
 /*
  * Recursive Method
 Time complexity - O(n)
@@ -20,5 +22,18 @@ public class ReverseLLWithOutExtraSpaceRecursiveMethod {
         head.next.next = head;
         head.next = null;
         return newHead;
+    }
+
+
+    public static void main(String[] args) {
+        // LinkedList<Integer> list = new LinkedList<Integer>();
+        LL list = new LL();
+        list.addLast(1);
+        list.addLast(2);
+        list.addLast(3);
+        list.addLast(4);
+
+        list.head = list.reverseListRecursive(list.head);
+        list.printList();
     }
 }
