@@ -1,4 +1,4 @@
-package DS-with-Java.Queue;
+package Queue;
 
 //queue using Linked List
 

@@ -1,4 +1,4 @@
-package DS-with-Java.Queue;
+package Queue;
 
 
 //circular queue using array
