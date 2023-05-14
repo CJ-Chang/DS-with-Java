@@ -1,0 +1,34 @@
+Time complexity
+    Insert = O(1)
+    Search = O(n)
+
+
+LL uses Non-contiguous memory.
+LL has variable size.
+
+
+LinkedList is better than ArrayList for data manipulation operation (e.g add)
+ArrayList is better than LinkedList for search operation.
+
+
+Once we delete the node form LL, Garbage collector frees the memory of deleted node.
+
+
+
+https://docs.google.com/document/d/1cyibFkWUicpLPUfCERD5usxkb2QlvGcpU6kMjHgJpCY/edit
+Homework Problems :-
+1. Make a Linked List & add the following elements to it : (1, 5, 7, 3 , 8, 2, 3). Search for the number 7 & display its index.
+
+2. Take elements(numbers in the range of 1-50) of a Linked List as input from the user. Delete all nodes which have values greater than 25.
+
+
+
+
+
+
+https://docs.google.com/document/d/1cyibFkWUicpLPUfCERD5usxkb2QlvGcpU6kMjHgJpCY/edit
+Homework Problems:-
+https://leetcode.com/problems/swap-nodes-in-pairs/
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+https://leetcode.com/problems/reverse-linked-list-ii/
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/

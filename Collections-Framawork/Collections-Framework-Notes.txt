@@ -1,0 +1,60 @@
+// https://drive.google.com/file/d/1Vde0ztULzoBZtdCflLHGi7dMMtTM9Oi8/view
+
+
+Collection of Classes & Interfaces :-
+    Iterabele
+        Collection
+            List
+            Queue
+            Set
+
+
+
+Methods of Collections :-
+    add
+    size
+    remove
+    iterate
+    addAll
+    removeAll
+    clear
+
+
+
+
+List Interface :-
+    List
+        ArrayList
+        LinkedList
+        Vector
+            Stack
+
+
+
+Queue Interface (FIFO) :-
+    PriorityQueue
+    LinkedList
+    Deque
+        ArrayDeque
+
+
+
+
+Set Interface :-
+    Set
+        HashSet
+        LinkedHashSet
+        SortedSet
+            TreeSet
+
+
+
+
+Map Interface :-
+    Map
+        HashMap
+        LinkedHashMap
+        SortedMap
+            TreeMap
+        Hashtable
+
