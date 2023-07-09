@@ -1,0 +1,39 @@
+Important terms-
+    Root node
+    Leaf node
+    Level
+    Depth
+    Subtree
+        left Subtree
+        ritht Subtree
+    Ancestors node
+    Children node
+    Parent node
+    No. of leaves
+    Height of Tree
+    Count of Nodes of Tree
+    Sum of Nodes of Tree
+    Diameter of Tree
+    Tree traversal
+        PreOrder
+        InOrder
+        PostOrder
+        
+
+
+
+
+PreOrder
+    DLR -       Data -> Left -> Right
+    Complexity: O(n)
+   
+
+InOrder
+    DLR -       Left -> Data -> Right
+    Complexity: O(n)
+
+
+PostOrder
+    DLR -       Left -> Right -> Data
+    Complexity: O(n)
+
